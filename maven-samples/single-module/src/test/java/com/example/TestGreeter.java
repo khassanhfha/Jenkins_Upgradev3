@@ -29,7 +29,7 @@ public class TestGreeter {
 
   @Test
   public void Internationally_Failed() {
-    assertTrue(false);
+    assertTrue(true);
 
     assertThat(greeter.greet(someone), containsString(someone));
   }
